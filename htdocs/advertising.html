@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Advertising</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        main {
+            animation-name: fadeIn;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 120px;
+            text-align: center;
+        }
+
+        .content img {
+            width: 340px;
+            height: 210px;
+        }
+
+        .content {
+            display: inline-flex;
+        }
+
+        .container{
+            background-color: #fff;
+            width: 340px;
+            margin: 60px 50px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            height: 70vh;
+            border-radius: 10px;
+        }
+
+        .container-two {
+            background-color: #fff;
+            max-width: 340px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin: 60px 70px;
+            height: 70vh;
+            border-radius: 10px;
+        }
+
+        .container-three {
+            background-color: #fff;
+            max-width: 340px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            margin: 60px 0px;
+            height: 70vh;
+            border-radius: 10px;
+        }
+
+        .tittle a {
+            color: #242424;
+            transition: 0.5s all;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .tittle a:hover {
+            color: blue;
+        }
+
+        .tittle {
+            padding: 20px 20px;
+        }
+
+        .price {
+            font-size: 27px;
+            position: relative;
+            bottom: 30px;
+            float: right;
+            margin-right: 10px;
+        }
+
+        .telegram button {
+            background-color: #0088cc;
+            border: none;
+            position: relative;
+            outline: none;
+            padding: 15px 46px;
+            cursor: pointer;
+            color: #fff;
+            transition: 0.5s all;
+            margin: 20px;
+            margin-top: 60px;
+            margin-left: 15px;
+            border-radius: 5px;
+        }
+
+        .telegram a {
+            color: #fff;
+            position: absolute;
+            left: 15px;
+            top: 12px;
+            font-size: 20px;
+            margin-left: -10px;
+        }
+
+        .telegram button:hover {
+            background-color: #0088cccb;
+        }
+
+        .description {
+            color: #fff;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .item-description{
+            color: #fff;
+            background-color: gray;
+            padding: 10px 30px;
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 5px;
+        }
+
+        @media(max-width: 1000px){
+            .content{
+                display: grid;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container{
+                margin: 60px 50px;
+            }
+
+            .container-two {
+                margin: 60px 50px;
+        }
+
+        .container-three {
+            margin: 60px 50px;
+        }
+
+        .description {
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 10px 90px;
+            font-size: 28px;
+        }
+
+        .item-description{
+            color: #fff;
+            background-color: gray;
+            padding: 10px 18px;
+            width: 85%;
+            margin-left: 2%;
+            border-radius: 5px;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Advertising</h1>
+    </header>
+
+    <div class="content">
+        <div class="container">
+            <a href="https://www.sahmeran.ml/advert/advert.php">
+                <img src="coder-one.jpg" alt="">
+                <div class="tittle">
+                    <a href="#">I will design and develop modern and responsive wordpress website</a>
+                    <hr>
+                </div>
+                <div class="price">
+                    <h6 style="color: #74767e;">Price <span style="font-weight: bold; color: #404145;">170 $</span></h6>
+                </div>
+                <div class="telegram">
+                    <button><a href="#"><i class="fa-solid fa-money-bill"></i></a>Buy</button>
+                </div>
+        </div>
+        </a>
+        <div class="container-two">
+            <a href="https://www.sahmeran.ml/advert/advert.php">
+                <img src="four.jpg" alt="">
+                <div class="tittle">
+                    <a href="#">I will design and develop modern and responsive wordpress website</a>
+                    <hr>
+                </div>
+                <div class="price">
+                    <h6 style="color: #74767e;">Price <span style="font-weight: bold; color: #404145;">170 $</span></h6>
+                </div>
+                <div class="telegram">
+                    <a href="https://web.telegram.org/k/#@sahmeran_b">
+                        <button><a href="https://web.telegram.org/k/#@sahmeran_b"><i
+                                    class="fa-solid fa-money-bill"></i></a> Buy</button>
+                    </a>
+                </div>
+        </div>
+        </a>
+
+        <div class="container-three">
+            <a href="https://www.sahmeran.ml/advert/advert.php">
+            <img src="coder-three.jpg" alt="">
+            <div class="tittle">
+                <a href="https://www.sahmeran.ml/advert/advert.php">I will design and develop modern and responsive wordpress website</a>
+                <hr>
+            </div>
+            <div class="price">
+                <h6 style="color: #74767e;">Price <span style="font-weight: bold; color: #404145;">170 $</span></h6>
+            </div>
+            <div class="telegram">
+                <a href="https://web.telegram.org/k/#@sahmeran_b">
+                    <button><a href="https://web.telegram.org/k/#@sahmeran_b"><i class="fa-solid fa-money-bill"></i></a>
+                        Buy</button>
+                </a>
+            </div>
+        </a>
+        </div>
+    </div>
+
+    <div class="description">
+        <h4>Description</h4>
+    </div>
+
+    <div class="item-description">
+        <p>Ransium is a remote file access software specifically designed for Windows devices. This software is
+            developed for use in pentest scenarios. Ransium runs on the target device and when executed, it retrieves
+            files from the target device and sends them to the user via FTP. The software is generated on a per-request
+            basis.Ransium is a powerful and reliable remote file access software that has been specifically designed to
+            provide secure and easy access to files on Windows devices. This software has been developed for use in
+            pentest scenarios, and it offers a range of advanced features that make it an indispensable tool for
+            cybersecurity professionals. One of the key benefits of Ransium is that it is undetectable by antivirus
+            software. This makes it an ideal tool for testing the security of your network or your clients' networks. In
+            addition, Ransium is incredibly easy to use, and it can be customized to suit the specific needs of each
+            user. Ransium retrieves files from the target device and sends them to the user via FTP. The software is
+            generated on a per-request basis, ensuring that it is always up-to-date and tailored to the specific needs
+            of each user. Overall, Ransium provides users with remote access to files on target Windows devices in a way
+            that is both reliable and secure. It is designed to be used ethically and within legal boundaries, and it is
+            a valuable tool for any cybersecurity professional who needs to conduct pentests on Windows devices.</p>
+    </div>
+
+    <footer>
+        <p>Sahmeran Hacker Web Store © 2023</p>
+    </footer>
+</body>
+
+</html>
